@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans Thai', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin: 0.25rem 0;
+}
+
+.link-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.link-button {
+  display: block;
+  padding: 0.75rem 1rem;
+  background-color: #1a1a1a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.link-button:hover {
+  background-color: #333333;
+  transform: scale(1.02);
+}
+
+/* ปรับแต่งสีตามประเภท */
+.pin { background-color: #d64045; }
+.discord { background-color: #7289da; }
+.sparkle { background-color: #f7c948; color: #000; }
+.shop { background-color: #3ddc91; color: #000; }
+.profile { background-color: #a78bfa; }
+.youtube { background-color: #ff4d4d; }
+.tiktok { background-color: #a445ed; }
